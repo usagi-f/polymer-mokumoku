@@ -1,0 +1,23 @@
+{
+  "name": "polymer-mokumoku",
+  "flat": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "light-server -s . -p 7000"
+  },
+  "dependencies": {
+    "@polymer/polymer": "next",
+    "@webcomponents/webcomponentsjs": "^1.0.17"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.17",
+    "debug": "2.6.9",
+    "ms": "0.7.1",
+    "statuses": "1.2.1"
+  },
+  "devDependencies": {
+    "light-server": "^2.2.1"
+  }
+}
