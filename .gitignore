@@ -1,1 +1,3 @@
-node_modules/
+/polymer_3_0/node_modules/
+/react-polymer/node_modules/
+/react-polymer/public/node_modules/
