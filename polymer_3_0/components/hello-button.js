@@ -7,12 +7,20 @@ export default class HelloButton extends PolymerElement {
     }
 
     static get template() {
-        return `<button>Hello, my name is [[name]].</button>`
+        return `
+            <button on-click="handleClick">
+                Hello, my name is [[name]].
+            </button>
+        `;
     }
 
     constructor() {
         super();
         this.name = this.getAttribute('data-name');
+    }
+
+    handleClick() {
+        alert(`Hello, my name is ${this.name}`);
     }
 
     static get properties() {
