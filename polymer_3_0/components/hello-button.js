@@ -2,6 +2,10 @@ import { Element as PolymerElement } from '../node_modules/@polymer/polymer/poly
 
 export default class HelloButton extends PolymerElement {
 
+    static get is() {
+        return 'hello-button';
+    }
+
     static get template() {
         return `<button>Hello, my name is [[name]].</button>`
     }
