@@ -8,7 +8,7 @@ export default class HelloButton extends PolymerElement {
 
     constructor() {
         super();
-        this.name = 'BUTTON';
+        this.name = this.getAttribute('data-name');
     }
 
     static get properties() {
