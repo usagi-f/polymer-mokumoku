@@ -43,7 +43,7 @@ export default class CraApp extends PolymerElement {
     }
 
     static get properties() {
-        props: {
+        title: {
             type: String
         }
     }
