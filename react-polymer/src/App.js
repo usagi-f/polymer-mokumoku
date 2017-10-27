@@ -5,7 +5,7 @@ import React from 'react';
 const App = () => {
   return (
     <div>
-      <cra-app />
+      <cra-app data-title="Polymer" />
       <div className="header">Not affected by Component-CSS</div>
     </div>
   );

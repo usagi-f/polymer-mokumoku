@@ -30,7 +30,7 @@ export default class CraApp extends PolymerElement {
     </style>
     <div>
         <header class="header">
-            <h1 class="title">Welcome to <s>React</s> Polymer</h1>
+            <h1 class="title">Welcome to <s>React</s> [[title]]</h1>
             <img src="img/logo.svg" class="logo" alt="logo" />
         </header>
         <p class="intro">Rendering polymer element</p>
@@ -39,8 +39,12 @@ export default class CraApp extends PolymerElement {
 
     constructor() {
         super();
+        this.title = this.getAttribute('data-title');
     }
 
     static get properties() {
+        props: {
+            type: String
+        }
     }
 }
