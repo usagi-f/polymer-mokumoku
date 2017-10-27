@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": ".",
   "dependencies": {
     "@polymer/polymer": "next",
     "@webcomponents/webcomponentsjs": "^1.0.17"
