@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <cra-app />
-      <div className="App">Not affected by Component-CSS</div>
+      <div className="header">Not affected by Component-CSS</div>
     </div>
   );
 };
